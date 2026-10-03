@@ -13,12 +13,13 @@ First move once it opens: **File → Save a copy in Drive**.
 
 | file | what it is |
 |---|---|
-| `llm_social_science_tutorial.ipynb` | the hands-on notebook (API mode, or paste answers from any chatbot) |
+| `llm_social_science_tutorial.ipynb` | the hands-on notebook: one question many ways, change one thing, open answers and the model as coder |
 
 ## Running the notebook
 
-- **With an Anthropic API key**: set `MODE = "api"` in the setup cell. In Colab, store the key in the Secrets pane (🔑, left edge) as `ANTHROPIC_API_KEY`, or type it when prompted.
-- **Without a key**: set `MODE = "paste"` and paste answers from a chat window into the `PASTED` dictionary where indicated.
+You need an Anthropic API key (one is provided during the tutorial). In Colab, store it in the Secrets pane (🔑, left edge) under the name `ANTHROPIC_API_KEY` and switch on notebook access; otherwise the setup cell asks you to type it.
+
+The notebook ships with outputs from a real run, so you can read the prompts, the raw answers, and the analysis before running anything. Each section has a few variables in CAPITALS (`QUESTION`, `CONDITIONS`, `POPULATIONS`, `PERSONAS`, `CODEBOOK`, `N`); change those to make it your own study.
 
 ## Acknowledgments
 
