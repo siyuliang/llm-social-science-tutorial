@@ -13,13 +13,13 @@ First move once it opens: **File → Save a copy in Drive**.
 
 | file | what it is |
 |---|---|
-| `llm_social_science_tutorial.ipynb` | the hands-on notebook: one question many ways, change one thing, open answers and the model as coder |
+| `llm_social_science_tutorial.ipynb` | the hands-on notebook: change one thing in a prompt and compare; open answers coded by the model; then your own study |
 
 ## Running the notebook
 
 You need an Anthropic API key (one is provided during the tutorial). In Colab, store it in the Secrets pane (🔑, left edge) under the name `ANTHROPIC_API_KEY` and switch on notebook access; otherwise the setup cell asks you to type it.
 
-The notebook ships with outputs from a real run, so you can read the prompts, the raw answers, and the analysis before running anything. Each section has a few variables in CAPITALS (`QUESTION`, `CONDITIONS`, `POPULATIONS`, `PERSONAS`, `CODEBOOK`, `N`); change those to make it your own study.
+The notebook ships with outputs from a real run, so you can read the prompts, the raw answers, and the analysis before running anything. Each part has a few variables in CAPITALS (`CONDITIONS`, `PERSONAS`, `CODEBOOK`, `N`); change those to make it your own study.
 
 ## Acknowledgments
 
